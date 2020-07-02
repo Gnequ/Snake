@@ -31,3 +31,18 @@ switch(dir){
 }
 
 // change dir
+if(W && dir != "down"){
+	dir = "up";
+}
+if(S && dir != "up"){
+	dir = "down";
+}if(A && dir != "right"){
+	dir = "left";
+}if(D && dir != "left"){
+	dir = "right";
+}
+
+// eat coin
+if(position_meeting(x,y,obj_coin)){
+	instance_destroy(obj_coin);
+}

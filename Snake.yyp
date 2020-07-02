@@ -66,7 +66,7 @@
             "Key": "34ea9c45-a5b8-40d5-806a-d27e080c273c",
             "Value": {
                 "id": "42968538-8e07-49c8-9191-b5b6daddcb95",
-                "resourcePath": "objects\\obj_coing_generator\\obj_coing_generator.yy",
+                "resourcePath": "objects\\obj_coin_generator\\obj_coin_generator.yy",
                 "resourceType": "GMObject"
             }
         },
