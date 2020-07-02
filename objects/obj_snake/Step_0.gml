@@ -12,21 +12,29 @@ switch(dir){
 		if (!position_meeting(x - pSpeed, y, obj_wall) && !position_meeting(x - pSpeed, y, obj_snake_tail)) {
 			x -= pSpeed;
 		}
+		else{game_end();
+			}
 		break;
 	case "right":
 		if (!position_meeting(x + pSpeed, y, obj_wall) && !position_meeting(x + pSpeed, y, obj_snake_tail)) {
 			x += pSpeed;
 		}
+		else{game_end();
+			}
 		break;
 	case "up":
 		if (!position_meeting(x, y - pSpeed, obj_wall) && !position_meeting(x, y - pSpeed, obj_snake_tail)) {
 			y -= pSpeed;
 		}
+		else{game_end();
+			}
 		break;
 	case "down":
 		if (!position_meeting(x, y + pSpeed, obj_wall) && !position_meeting(x, y + pSpeed, obj_snake_tail)) {
 			y += pSpeed;
 		}
+		else{game_end();
+			}
 		break;
 }
 
@@ -34,15 +42,18 @@ switch(dir){
 if(W && dir != "down"){
 	dir = "up";
 }
-if(S && dir != "up"){
+else if(S && dir != "up"){
 	dir = "down";
-}if(A && dir != "right"){
+}
+else if(A && dir != "right"){
 	dir = "left";
-}if(D && dir != "left"){
+}
+else if(D && dir != "left"){
 	dir = "right";
 }
 
 // eat coin
 if(position_meeting(x,y,obj_coin)){
 	instance_destroy(obj_coin);
+	instance_create_depth(x,y,2,obj_snake)
 }
