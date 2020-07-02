@@ -159,6 +159,22 @@
             }
         },
         {
+            "Key": "d15e32aa-c364-469b-be61-48e778fd336b",
+            "Value": {
+                "id": "2cc69be9-c330-4916-a8fc-f70305578c50",
+                "resourcePath": "objects\\obj_snake\\obj_snake.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d9e35015-d507-4e2f-adca-7fc1cd2638be",
+            "Value": {
+                "id": "1466605b-0e11-4aa4-b51b-f532cb83c954",
+                "resourcePath": "sprites\\sp_snake\\sp_snake.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ddbfe83e-90bf-438d-bf72-9a6c4ba474dc",
             "Value": {
                 "id": "024d20cb-95ab-4052-ba88-4fd02e9e36da",
