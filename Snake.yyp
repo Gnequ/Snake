@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "d6648856-143d-4ec7-8fb3-9009777db120",
+            "Value": {
+                "id": "62c5342b-aad3-4a54-a938-568c6e1dba52",
+                "resourcePath": "objects\\obj_snake_tail\\obj_snake_tail.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d9e35015-d507-4e2f-adca-7fc1cd2638be",
             "Value": {
                 "id": "1466605b-0e11-4aa4-b51b-f532cb83c954",

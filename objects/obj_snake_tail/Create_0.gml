@@ -1,0 +1,2 @@
+//variables
+leader = noone;
