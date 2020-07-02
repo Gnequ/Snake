@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "653cc4ba-2e12-466f-aab7-82384e928bd1",
+            "Value": {
+                "id": "016e42e1-818e-4bfd-bc35-f08acbd347e4",
+                "resourcePath": "sprites\\sp_snake_eyes\\sp_snake_eyes.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "68a58976-be79-4c0f-bd84-2e1d40b9ce6c",
             "Value": {
                 "id": "71c8ae18-7919-4a6a-975c-81cd89b8cc4e",
